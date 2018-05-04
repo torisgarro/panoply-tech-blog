@@ -1,0 +1,31 @@
+.mainButton {
+    border: 1px solid black;
+    line-height: 45px;
+    padding: 12px 20px;
+    margin: 0 auto 80px auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.mainButtonContainer {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.readMoreButton {
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 400px) {
+    .mainButtonContainer {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}

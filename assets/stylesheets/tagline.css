@@ -1,0 +1,40 @@
+.blogTagLineVertical {
+    position: fixed;
+    z-index: 90;
+    top: 345px;
+    left: -10px;
+    -webkit-transform: rotate(-90deg);
+}
+
+.blogTagLineVertical p {
+    font-size: 18px;
+}
+
+.blogTagLineHorizontal p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.blogTagLineHorizontal {
+    display: none;
+}
+
+@media screen and (max-width: 1550px) {
+    .blogTagLineVertical {
+        display: none;
+    }
+
+    .blogTagLineHorizontal {
+        display: inline;
+    }
+    
+    .blogTagLineHorizontal p {
+        margin-bottom: 0;   
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    .blogTagLineHorizontal {
+        display: none;
+    }
+}

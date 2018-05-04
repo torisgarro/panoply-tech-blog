@@ -1,0 +1,61 @@
+.pinterestContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 200px auto 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .pinterestContainer {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .pinterestContainer {
+        margin-top: 150px;
+        }
+    }
+
+@media screen and (max-width: 400px) {
+    .pinterestContainer {
+        margin-top: 100px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.pinterestContainer__articleCard, .pinterestContainer__inspirationCard {
+    width: 28%;
+    margin: 0 30px 80px 30px;
+}
+
+.pinterestContainer__articleCard img, .pinterestContainer__inspirationCard img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1145px) {
+    .pinterestContainer__articleCard, .pinterestContainer__inspirationCard {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pinterestContainer__articleCard, .pinterestContainer__inspirationCard {
+        width: 100%;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pinterestContainer__articleCard, .pinterestContainer__inspirationCard {
+        border-bottom: 1px solid #e9e9e9;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
